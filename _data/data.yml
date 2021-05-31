@@ -9,27 +9,166 @@ sidebar:
     # Profile information
     name: Álvaro Huertas García
     tagline: Biotechnologist and Bioinformatician
-    avatar: personal_photo.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: persoanl_photo.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
+    # Sidebar links
+    email: ahuertasg01@gmail.com
+    phone: +34 678 27 33 92
+    website: blog.webjeda.com #do not add http://
+    linkedin: alvaro-huertas-garcia
+
+    github: Huertas97
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@Cindere41633251'
+    stack-overflow: 13180500/Álvaro-h-g  # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advanced
+
+    interests:
+      - item: Kaggle competitions
+        link:
+
+      - item: Practising team sports
+        link:
+
+      - item: Divulgation and webinars
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+        I am a bioinformatician with the soul of a communicator who never gets tired of facing new challenges and growing
+        on a professional and, above all, personal level. My interests are Artificial Inteligence, Programming, Figthing Misinformation and Data Analysis.
+        Available to work full-time.
+education:
+    - degree: MSc in Bioinformatics and Computational Biology
+      university: Autonomous University of Madrid
+      time: 2019 - 2021
+      details: |
+          - Marks: 9.6
+          In my MSc I got the opportunity to discover my interest in statistic, data analysis and machine learning. Bioinformatics is a ever-evolving field full of breathtaking 
+          researches.  
+          I passed several subjects with Honours: 
+          - MACHINE LEARNING course
+          - TEXT MINING course
+          - CHARACTERIZATION OF NETWORKS AND BIOLOGICAL TOPOLOGIES course
+          - RESEARCH SEMINARS course 
+
+          
+    - degree: BSc in Biotechonology
+      university: University of Salamanca
+      time: 2015 - 2019
+      details: |
+        - Marks: 8.83
+        During my BSc in Biotechnology I boosted my team-work abilities and schedule organization. Moreover, I discover my eager passion for facing new challenges and keep 
+        learning new things. 
+        
+experiences:
+    - role: Research Student
+      time: 2019-2021
+      company:  Collaboration in Private company funding by BBVA
+      details: |
+        In this study we aimed to elucidate the use of state-of-the-art deep learning approach based on semantic level
+        and NLU techniques to infer and understand information from texts to tackle infodemic and misinformation
+        for COVID-19
+
+    - role: MSc Final Project Student
+      time: 2019 - 2021
+      company: Department of Computer Engineering (UAM) and Computer System (UPM)
+      details: |
+        Automatic information search for waging COVID-19 misinformation through semantic similarity. Since COVID-19 emerged in Wuhan, China, in December 2019 the
+        public have been bombarded with vast quantities of information. Much of which is not checked. There is no doubt that public health emergencies are stressful 
+        times for people and communities. The abundance of information on social media frequently without any check on its authenticity makes it difficult for an individual to distinguish between facts and opinions, propaganda, or biases. 
+        Our belief is that information should be accessible across all the globe and languages spoken should not be a hurdle. Consequently, in this study, we aimed to elucidate the use of multilingual state-of-the-art deep learning models based on semantic 
+        level and NLU techniques to infer and understand information from texts to tackle infodemics misinformation.
+
+    - role: UI Developer
+      time: 2012 - 2014
+      company: Amazon, London
+      details: |
+        Describe your role here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes,
+        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+        pellentesque eu, pretium quis, sem.
+          - Bullet point
+          - Bullet point
+Competitions: 
+    Natural Language Processing:
+        - title: Profiling Hate Speech Spreaders on Twitter
+          link: "https://pan.webis.de/clef21/pan21-web/author-profiling.html"
+
+        - title: CLEF2021 CheckThat! Lab - Task 3
+          link: "https://competitions.codalab.org/competitions/31238"
+          
+Honours and awards:
+  
+    Honours: 
+     - Grant holder from The Spanish Ministry of Education and Professional Development (2018 - 2019)
+     - Honours in the Biotechnology Degree: 2
+     - Honours in the Master of Bioinformatics and Computational Biology: 7
+     
+    Awards:
+      - title: Winner of Analytic Vidhya Twitter Sentiment Analysis Competition
+        link: "https://datahack.analyticsvidhya.com/contest/practice-problem-twitter-sentiment-analysis/#LeaderBoard"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: Finalist of "HiloTesis" Competition at Universidad Politécnica de Madrid
+        link: "https://blogs.upm.es/eidoctorado/2021/05/10/ya-tenemos-finalistas-upm-del-concurso-hilotesis/"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      This sections is in development progress.
+    papers:
+      - title: 	Profiling Hate Speech Spreaders on Twitter: Transformers and mixed pooling
+        link: "#"
+        authors: Álvaro Huertas-García, Alejandro Martín, Javier Huertas-Tato and David Camacho
+        conference: CLEF 2021
+
+
+skills:
+    title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Python 
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
+      - name: R
         level: 98%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 70%
+      
+      - name: Pytorch & Tensorflow
+        level: 70%
+        
+      - name: Transformers
+        level: 70%
 
-      - name: Ruby on Rails
-        level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
